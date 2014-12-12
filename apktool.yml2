@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: TvdLauncher.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.softwinner.launcher
+  orig_package: com.softwinner.launcher
+compressionType: false
