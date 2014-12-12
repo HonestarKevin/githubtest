@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffdadbdb" android:focusable="false" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.softwinner.launcher.ui.MenuItem android:textSize="18.0sp" android:id="@id/add_to_favorites" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_favorites_app" android:layout_weight="1.0" style="@style/menu_item" />
+        <com.softwinner.launcher.ui.MenuItem android:textSize="18.0sp" android:id="@id/uninstall_app" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app" android:layout_weight="1.0" style="@style/menu_item" />
+    </LinearLayout>
+</LinearLayout>

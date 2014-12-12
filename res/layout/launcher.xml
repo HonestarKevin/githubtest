@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.softwinner.launcher.ui.WorkSpace android:id="@id/mainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widgets" android:focusable="true" android:layout_centerHorizontal="true" layout="@layout/widgets" />
+    <include android:id="@id/quickly_start_bar" android:focusable="true" layout="@layout/quickly_start_bar" />
+    <include layout="@layout/all_apps" />
+    <include layout="@layout/favorites_apps" />
+    <include android:id="@id/statusbar" layout="@layout/statusbar" />
+</com.softwinner.launcher.ui.WorkSpace>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="extra_wallpapers" />
+    <string-array name="wallpapers">
+        <item>wallpapers_default</item>
+        <item>wallpaper_canyon</item>
+        <item>wallpaper_cloud</item>
+        <item>wallpaper_desert</item>
+        <item>wallpaper_despair</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.softwinner.launcher">
+    <favorites_app launcher:className="com.android.gallery3d.app.Gallery" launcher:packageName="com.android.gallery3d" />
+    <favorites_app launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" />
+</favorites>

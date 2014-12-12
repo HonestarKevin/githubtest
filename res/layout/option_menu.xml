@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#fff8b62d" android:focusable="false" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <LinearLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*android:drawable/ic_menu_agenda" />
+        <TextView android:textSize="18.0sp" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="#fff8b62d" android:focusable="false" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <ListView android:id="@id/content_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>
